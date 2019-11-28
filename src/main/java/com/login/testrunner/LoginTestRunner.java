@@ -9,6 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features ="E:\\Cucumber Practice\\login\\src\\main\\java\\com\\login\\features\\login.feature",
 		glue = {"com.login.stepdefinition"},
+		dryRun=false,
+		monochrome = true,
 		format = {"pretty","html:resultant"})
 public class LoginTestRunner {
 

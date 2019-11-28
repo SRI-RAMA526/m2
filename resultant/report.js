@@ -27,15 +27,31 @@ formatter.step({
 formatter.step({
   "line": 7,
   "name": "enter username and password",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password"
+      ],
+      "line": 8
+    },
+    {
+      "cells": [
+        "9963337998",
+        "itslucky"
+      ],
+      "line": 9
+    }
+  ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 8,
+  "line": 10,
   "name": "click on login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 9,
+  "line": 11,
   "name": "verify facebook homepage",
   "keyword": "Then "
 });
@@ -43,35 +59,35 @@ formatter.match({
   "location": "LoginStepDefinition.verify_facebook_login_page()"
 });
 formatter.result({
-  "duration": 9633606400,
+  "duration": 13338277300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.title_of_given_page_is_facebook()"
 });
 formatter.result({
-  "duration": 13426400,
+  "duration": 26395200,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDefinition.enter_username_and_password()"
+  "location": "LoginStepDefinition.enter_username_and_password(DataTable)"
 });
 formatter.result({
-  "duration": 369233300,
+  "duration": 396904200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.click_on_login_button()"
 });
 formatter.result({
-  "duration": 7222371700,
+  "duration": 20250421800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.verify_facebook_homepage()"
 });
 formatter.result({
-  "duration": 161465300,
+  "duration": 148231200,
   "status": "passed"
 });
 });
