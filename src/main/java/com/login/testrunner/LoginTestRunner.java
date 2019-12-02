@@ -11,6 +11,7 @@ import cucumber.api.junit.Cucumber;
 		glue = {"com.login.stepdefinition"},
 		dryRun=false,
 		monochrome = true,
+		tags = {"@smoke_testing,@Regression_testing"},
 		format = {"pretty","html:resultant"})
 public class LoginTestRunner {
 

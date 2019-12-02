@@ -52,6 +52,10 @@ public class LoginStepDefinition {
 		System.out.println(title_of_page);
 		//Assert.assertEquals("Facebook – log in or sign up", title_of_page);
 	}
+	@Then("^quit the browser$")
+	public void quit_the_browser() {
+		driver.close();
+	}
 
 
 }
